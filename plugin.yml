@@ -1,0 +1,15 @@
+name: MoneyAPI
+version: 1.0.0
+author: Zoumi
+main: Zoumi\MoneyAPI\MoneyAPI
+api: 4.0.0
+
+permissions:
+  moneyapi.command.money:
+    default: true
+  moneyapi.command.setmoney:
+    default: op
+  moneyapi.command.addmoney:
+    default: op
+  moneyapi.command.removemoney:
+    default: op
